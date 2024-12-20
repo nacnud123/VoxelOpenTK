@@ -1,4 +1,4 @@
-# DuncanCraft OpenTK
+# Voxel OpenTK
 
 This is a voxel project I am making in C# using OpenTK. Right now, you can break and place blocks, but that's really it. The player can also move around and jump.
 This is one of my first OpenGL projects so it is not optimized at all, expect bugs.
