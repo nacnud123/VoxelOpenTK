@@ -145,7 +145,7 @@ public class Player
     public void Render()
     {
         // Replace this with your voxel rendering logic
-        Console.WriteLine($"Player Position: {position}");
+        //Console.WriteLine($"Player Position: {position}");
     }
 
     public Vector3 GetPosition()

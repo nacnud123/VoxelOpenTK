@@ -76,8 +76,6 @@ public class World
             }
         }
 
-        Console.WriteLine($"No Chunk found at: {position.X} {position.Y} {position.Z}");
-
         return null;
     }
 
