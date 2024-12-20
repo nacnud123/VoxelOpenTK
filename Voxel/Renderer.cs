@@ -1,4 +1,7 @@
-﻿using OpenTK.Graphics.OpenGL4;
+﻿// DA - The worst script in the entire project. Holds all the functions related to block and chunk rendering, also holds information for the shader.
+// Needs refactoring. Barely works, like held together with tape.
+
+using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 using System.Drawing.Imaging;
 using System.Drawing;

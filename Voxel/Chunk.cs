@@ -1,4 +1,6 @@
-﻿using OpenTK.Mathematics;
+﻿// DA - Holds information for chunks.
+
+using OpenTK.Mathematics;
 using System.Collections.Generic;
 
 

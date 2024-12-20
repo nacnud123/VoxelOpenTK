@@ -1,4 +1,6 @@
-﻿using OpenTK.Windowing.Common;
+﻿// DA - Runs the game
+
+using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
 using OpenTK.Mathematics;
 using OpenTK.Graphics.OpenGL4;

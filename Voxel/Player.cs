@@ -1,4 +1,7 @@
-﻿using OpenTK.Windowing.GraphicsLibraryFramework;
+﻿// DA. Holds all the functions needed for player movement.
+// Known bugs - Sometimes the player can walk through blocks, but gravity works fine.
+
+using OpenTK.Windowing.GraphicsLibraryFramework;
 using OpenTK.Mathematics;
 using OpenTK.Graphics.OpenGL4;
 
@@ -59,36 +62,32 @@ public class Player
     private void Move(Vector3 move)
     {
         Vector3 newPosition = position + move;
-
-        // Check X axis
         if (!CheckCollision(new Vector3(newPosition.X, position.Y, position.Z)))
         {
             position.X = newPosition.X;
         }
         else
         {
-            velocity.X = 0; // Stop horizontal movement on collision
+            velocity.X = 0;
         }
 
-        // Check Y axis
         if (!CheckCollision(new Vector3(position.X, newPosition.Y, position.Z)))
         {
             position.Y = newPosition.Y;
         }
         else
         {
-            velocity.Y = 0; // Stop vertical movement on collision
-            if (move.Y < 0) isGrounded = true; // Player is grounded if colliding while moving down
+            velocity.Y = 0; 
+            if (move.Y < 0) isGrounded = true;
         }
 
-        // Check Z axis
         if (!CheckCollision(new Vector3(position.X, position.Y, newPosition.Z)))
         {
             position.Z = newPosition.Z;
         }
         else
         {
-            velocity.Z = 0; // Stop horizontal movement on collision
+            velocity.Z = 0;
         }
     }
 

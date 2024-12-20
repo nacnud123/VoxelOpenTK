@@ -1,4 +1,6 @@
-﻿using OpenTK.Graphics.OpenGL;
+﻿// DA - Holds all the functions needed to generate the world. Also holds a list of the chunks.
+
+using OpenTK.Graphics.OpenGL;
 using OpenTK.Mathematics;
 using System.Collections.Generic;
 

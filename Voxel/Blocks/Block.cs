@@ -1,4 +1,6 @@
-﻿using OpenTK.Mathematics;
+﻿// DA - Holds the information used for blocks. Not really used right now.
+
+using OpenTK.Mathematics;
 
 public enum BlockType
 {

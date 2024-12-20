@@ -1,4 +1,6 @@
-﻿using OpenTK.Windowing.Common;
+﻿// DA - Holds all the functions related to camera movement, used to hold the stuff for player movement.
+
+using OpenTK.Windowing.Common;
 using OpenTK.Windowing.GraphicsLibraryFramework;
 using OpenTK.Mathematics;
 using OpenTK.Graphics.OpenGL4;

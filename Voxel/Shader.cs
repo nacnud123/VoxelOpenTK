@@ -1,4 +1,6 @@
-﻿using OpenTK.Windowing.Desktop;
+﻿// DA - Makes shader
+
+using OpenTK.Windowing.Desktop;
 using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
 using OpenTK.Graphics.OpenGL4;
